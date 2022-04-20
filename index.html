@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOX ICONS -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Title -->
+
+    <title>Responsive Ecommerce</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">HELLO</a>
+        </div>
+
+        <div class="div nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="li nav__item">
+              <a href="#home" class="nav__link">HOME</a>
+            </li>
+            <li class="li nav__item">
+              <a href="#featured" class="nav__link">FEATURED</a>
+            </li>
+            <li class="li nav__item">
+              <a href="#new" class="nav__link">NEW</a>
+            </li>
+            <li class="li nav__item">
+              <a href="#suscribe" class="nav__link">SUSCRIBE</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <i class="bx bx-cart nav__cart"></i>
+          <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!-- Home-->
+
+      <section class="home" id="home">
+        <div class="div home__container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">NEW <br /><span>ARRIVALS</span></h1>
+            <a href="#featured" class="button">GO SHOPPING</a>
+          </div>
+
+          <img src="./assets/home.png" alt="home" class="home__img" />
+        </div>
+      </section>
+
+      <!-- Collections-->
+
+      <section class="collection section">
+        <div class="collection__container bd-grid">
+          <div class="collection__box">
+            <img
+              src="./assets/backpackMan.png"
+              alt="collection img"
+              class="collection__img"
+            />
+            <div class="collection__data">
+              <h2 class="collection_title">
+                <span class="collection__subtitle">Men</span><br />Backpack
+              </h2>
+              <a href="#" class="collection__view"></a>
+            </div>
+          </div>
+
+          <div class="collection__box">
+            <div class="collection__data">
+              <h2 class="collection_title">
+                <span class="collection__subtitle">Women</span><br />Backpack
+              </h2>
+              <a href="#" class="collection__view"></a>
+            </div>
+            <img
+              src="./assets/backpackWoman.png"
+              alt="collection img"
+              class="collection__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Products-->
+
+      <section class="featured section" id="featured">
+        <h2 class="section-title">FEATURED PRODUCTS</h2>
+        <a href="#" class="section-all">View All</a>
+
+        <div class="featured_container bd-grid">
+          <!--First Featured Products-->
+          <div class="featured__product">
+            <div class="featured__box">
+              <div class="featured__new">NEW</div>
+              <img src="./assets/feature1.png" alt="" class="featured__img" />
+            </div>
+
+            <div class="featured__data">
+              <h3 class="featured__name">Headphone One Black</h3>
+              <span class="featured__price">$29</span>
+            </div>
+          </div>
+
+          <!--Second Featured Products-->
+
+          <div class="featured__product">
+            <div class="featured__box">
+              <div class="featured__new">NEW</div>
+              <img src="./assets/feature2.png" alt="" class="featured__img" />
+            </div>
+
+            <div class="featured__data">
+              <h3 class="featured__name">Speaker Beats Pill</h3>
+              <span class="featured__price">$199</span>
+            </div>
+          </div>
+          <!--Third Featured Products-->
+          <div class="featured__product">
+            <div class="featured__box">
+              <div class="featured__new">NEW</div>
+              <img src="./assets/feature3.png" alt="" class="featured__img" />
+            </div>
+
+            <div class="featured__data">
+              <h3 class="featured__name">Apple Air Pods</h3>
+              <span class="featured__price">$122</span>
+            </div>
+          </div>
+
+          <!--Fourth Featured Products-->
+          <div class="featured__product">
+            <div class="featured__box">
+              <div class="featured__new">NEW</div>
+              <img src="./assets/feature4.png" alt="" class="featured__img" />
+            </div>
+
+            <div class="featured__data">
+              <h3 class="featured__name">Smartwatch F9 Negro</h3>
+              <span class="featured__price">$99</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
